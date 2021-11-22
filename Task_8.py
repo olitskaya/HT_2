@@ -6,7 +6,7 @@
 n = int(input("Введіть позитивне ціле число: "))
 d = dict()
 
-for x in range(1, n+1):
+for x in range(0, n+1):
     d[x]=x*x
 
 print(d) 
